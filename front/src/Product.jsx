@@ -8,6 +8,7 @@ export default function Product() {
   const [checked, setChecked] = useState([]);
   console.log('hii');
   console.log('yesss');
+  console.log('jemd6');
   const getAllProducts = () => {
     axios.get('http://127.0.0.1:8000/api/product').then((res) => {
       //console.log(res.data)
