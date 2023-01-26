@@ -9,6 +9,7 @@ export default function Product() {
   console.log('hii');
   console.log('yesss');
   console.log('jemd6');
+  console.log('conflict2');
   const getAllProducts = () => {
     axios.get('http://127.0.0.1:8000/api/product').then((res) => {
       //console.log(res.data)
