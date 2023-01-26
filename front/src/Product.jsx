@@ -7,7 +7,7 @@ export default function Product() {
   const [product, setProduct] = useState([])
   const [checked, setChecked] = useState([]);
   console.log('hii');
-  console.log('master');
+  console.log('juned');
   const getAllProducts = () => {
     axios.get('http://127.0.0.1:8000/api/product').then((res) => {
       //console.log(res.data)
