@@ -15,7 +15,7 @@ export default function Product() {
   }
 
   const [column, setColumn] = useState([
-    { name: 'iddcd', isSortable: false, sortDirection: '' },
+    { name: 'id1233', isSortable: false, sortDirection: '' },
     { name: 'name', isSortable: true, sortDirection: '' },
     { name: 'category', isSortable: true, sortDirection: '' },
     { name: 'price', isSortable: true, sortDirection: '' },
